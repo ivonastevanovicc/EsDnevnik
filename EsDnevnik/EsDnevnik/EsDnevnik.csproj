@@ -61,6 +61,12 @@
       <DependentUpon>Forme.cs</DependentUpon>
     </Compile>
     <Compile Include="Konekcija.cs" />
+    <Compile Include="Ocene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ocene.Designer.cs">
+      <DependentUpon>Ocene.cs</DependentUpon>
+    </Compile>
     <Compile Include="Odeljenje.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,8 +81,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raspodela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Raspodela.Designer.cs">
+      <DependentUpon>Raspodela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Upisnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upisnica.Designer.cs">
+      <DependentUpon>Upisnica.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme.resx">
+      <DependentUpon>Forme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ocene.resx">
+      <DependentUpon>Ocene.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Odeljenje.resx">
       <DependentUpon>Odeljenje.cs</DependentUpon>
@@ -94,6 +118,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Raspodela.resx">
+      <DependentUpon>Raspodela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upisnica.resx">
+      <DependentUpon>Upisnica.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

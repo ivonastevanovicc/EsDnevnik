@@ -166,7 +166,7 @@ namespace EsDnevnik
             }
             catch
             {
-                label7.Text = "Dati podaci nisu uneseni dobro";
+                label7.Text = "Dati informacije nisu uneseni dobro";
                 label7.Visible = true;
             }
         }
